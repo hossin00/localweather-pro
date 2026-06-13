@@ -118,7 +118,7 @@ export default function App() {
   )
 
   const date = new Date(selectedDate + 'T12:00:00')
-  const sun = getSunTimes(lat, lon, date)
+  const sun = getSunTimes(lat as number, lon as number, date)
   const moon = getMoonPhase(date)
   const season = getSeason(lat, date.getMonth())
   const dayOfYear = Math.floor((date.getTime() - new Date(date.getFullYear(), 0, 0).getTime()) / 86400000)
@@ -127,7 +127,7 @@ export default function App() {
   // Generate month calendar data
   const monthDays = Array.from({ length: new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() }, (_, i) => {
     const d = new Date(date.getFullYear(), date.getMonth(), i + 1, 12)
-    return { day: i + 1, moon: getMoonPhase(d), sun: getSunTimes(lat, lon, d) }
+    return { day: i + 1, moon: getMoonPhase(d), sun: getSunTimes(lat as number, lon as number, d) }
   })
 
   return (

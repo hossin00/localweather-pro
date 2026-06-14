@@ -1,0 +1,74 @@
+{
+  "name": "LocalWeather Pro",
+  "short_name": "LocalWeather Pro",
+  "description": "Offline weather almanac planner",
+  "start_url": "/localweather-pro/",
+  "scope": "/localweather-pro/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080810",
+  "theme_color": "#3b82f6",
+  "lang": "en-US",
+  "categories": [
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/localweather-pro/icons/icon-44x44.png",
+      "sizes": "44x44",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/localweather-pro/icons/icon-71x71.png",
+      "sizes": "71x71",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/localweather-pro/icons/icon-150x150.png",
+      "sizes": "150x150",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/localweather-pro/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/localweather-pro/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/localweather-pro/icons/icon-310x310.png",
+      "sizes": "310x310",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/localweather-pro/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/localweather-pro/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/localweather-pro/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
